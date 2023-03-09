@@ -1,0 +1,44 @@
+Step 1: Create a Git repository (only fill in the name.)
+
+Step 2: Open the anaconda prompt and go to the project folder path.
+
+step 3: run the command "code ." to open vs code
+
+Step 4: Create an environment. To create the environment use the command "conda create -p venv python==3.8 -y".
+
+Step 5: To activate the environment use the command "conda activate C:\Users\Rohan\Desktop\Data Science project\venv".
+
+Step 6: Initializing the git repository follow the below commands:
+	- "git init"
+	- Create a "README.md" file and then use the command to add the readme file in git "git add README.md"
+	- To save the changes or to commit the changes using the command "git commit -m "Message"
+	- To check the status of the commit use the command "git status" 
+	- Change the branch to main using the command "git branch -M main"
+	- Set the git origin by using the command "git remote add origin https://github.com/RohanSapkal97/mlproject.git" to sync vs code and git repo.
+	- Push everything in git from the origin using the command "git push -u origin main". But if you are doing it for the first time configure your email and git userID.
+
+Step 7: Create a ".gitignore" file in a git repository. Goto the file-> create new file-> give file name ".gitignore"-> in file type mention "python"-> commit the change. 
+
+Step 8: Sync .gitignore file in vs code by using the command "git pull" in vs code.
+
+Step 9: Create new files in vs code "setup.py" it will be responsible for creating my machine learning application to package that can be used in the different projects e.g. seaborn and 	  "requirements.txt" will contain all the packages that will be installed in the project.
+
+Step 10: Write the required code in the setup.py
+
+Step 11: Create the "src" folder so that it can find it as a package.
+
+
+Step 12: Create a new file in the folder src by the name "__init__.py" so that the find packages function will find this and import the packages.
+
+Step 13: After completing the code run "pip install -r requirements.txt"
+
+step 14: Add all changes in the git using the below command:
+	- git add .
+	- git status
+	- git commit -m "message"
+
+
+
+
+
+ 
