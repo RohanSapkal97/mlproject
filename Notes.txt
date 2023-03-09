@@ -1,3 +1,5 @@
+* Basic project setup
+
 Step 1: Create a Git repository (only fill in the name.)
 
 Step 2: Open the anaconda prompt and go to the project folder path.
@@ -37,6 +39,31 @@ step 14: Add all changes in the git using the below command:
 	- git status
 	- git commit -m "message"
 	- git push -u origin main
+
+
+* Project structure 
+
+Step 15: Create the "components" folder in the src folder. It is used to create modules for the process.
+
+Step 16: Create python files in the components folder such as "__init__.py", "data_ingestion.py", "data_transformation.py", and "model_trainer".
+
+
+* Pipeline
+
+Step 17: Create a "pipeline" folder in src. To create the pipelines.
+
+Step 18: Create python files in the pipeline folder such as "__init__.py", "train_pipelne.py", and "predict_pipeline.py".
+
+***
+
+Step 19: Create 3 important files in the src folder. "logger.py" to collect the logs. "exception.py" to handle the exceptions/errors. "utils.py" common functionalities used in the application will be in this file.
+
+ 
+Step 20: Write the exception code.
+
+Step 21: Write code for a logger.
+
+step 22: Add it in git using step 14 commands.
 
 
 

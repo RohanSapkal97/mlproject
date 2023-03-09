@@ -6,3 +6,14 @@ Day 1
 	c) requirements.txt
 
 2- Create src and build the packages
+
+
+Day 2
+
+3- Create a "components" folder in src.
+
+4- Custom exception handling python document.
+
+5- Project Structure
+
+ 
