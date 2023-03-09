@@ -36,7 +36,7 @@ step 14: Add all changes in the git using the below command:
 	- git add .
 	- git status
 	- git commit -m "message"
-
+	- git push -u origin main
 
 
 
