@@ -63,8 +63,11 @@ Step 20: Write the exception code.
 
 Step 21: Write code for a logger.
 
-step 22: Add it in git using step 14 commands.
+Step 22: Add it in git using step 14 commands.
 
+Step 23: Write code in the "data_ingestion" file. Regarding the train test split. 
+
+Step 24: Write code in the "data_transformation" file. Regarding the Feature engineering, converting data from categorical to numerical.
 
 
 
