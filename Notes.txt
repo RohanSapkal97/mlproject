@@ -67,8 +67,9 @@ Step 22: Add it in git using step 14 commands.
 
 Step 23: Write code in the "data_ingestion" file. Regarding the train test split. 
 
-Step 24: Write code in the "data_transformation" file. Regarding the Feature engineering, converting data from categorical to numerical.
+Step 24: Write code in the "data_transformation" file. Regarding Feature engineering, converting data from categorical to numerical.
 
+Step 25: Write code in the "model_trainer" file. Regarding multiple model training.
 
-
+Step 26: Call everything in the "data_ingestion" file. Run it.
  
