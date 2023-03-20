@@ -72,4 +72,28 @@ Step 24: Write code in the "data_transformation" file. Regarding Feature enginee
 Step 25: Write code in the "model_trainer" file. Regarding multiple model training.
 
 Step 26: Call everything in the "data_ingestion" file. Run it.
- 
+
+Step 27: Create an app.py file to create an application and deploy the created model. (Remove debug=True from code while deploying)
+
+Step 28: Write code in predict pipeline to pass user-entered data in the model to predict an outcome.
+
+
+AWS BEAN config
+
+Step 29: Create a folder ".ebextensions" and create "python.config" in the folder you will get config on the internet. 
+
+Deploy project in AWS.
+
+Step 30: Create an AWS console account.
+
+Step 31: Search for "Elastic Beanstalk" and then click on it.
+
+Step 32: Click on create an app. Give the name and select the platform in python. Don't put anything in key-value. In the application code select the sample application to fetch from git and create the pipeline. There is also a second option to upload your code if there is a zip file or s3 bucket.
+
+Step 33: Click create an application.
+
+Step 34: Set up the codepipeline to integrate GitHub. Search for "codepipeline" and open. Then create the pipeline give the name and select the source repo. Then connect to the GitHub and select the repo of the project and the branch will be "main".
+
+Step 35: Skip the step of the build stage. Then select the "AWS Elastic Beanstalk" as the deploy provider. Then search for the application name that we have created.
+
+Step 36: Wait till the application is created then deploy it and after reviewing it click "create pipeline". (We have only done a CD pipeline).
